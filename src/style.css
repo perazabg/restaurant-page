@@ -2,9 +2,14 @@ body {
   background-image: url("./imgs/pizzaBackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: black;
+  height: 100vh;
 }
 
 button {
   background-color: rgb(255, 177, 60);
+}
+
+.headLine {
+  color: rgb(255, 177, 60);
+  font-size: 24px;
 }
