@@ -1,0 +1,10 @@
+body{
+    background-image: url("./imgs/pizzaBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+button{
+    background-color: red;
+}
