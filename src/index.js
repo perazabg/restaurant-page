@@ -1,7 +1,7 @@
-import './style.css';
+import "./style.css";
+import pageLoad from "./pageLoad";
 
-const content = document.getElementById('content');
-const homeBtn = document.getElementById('home');
-const menuBtn = document.getElementById('menu');
-const aboutBtn = document.getElementById('about');
-
+const content = document.getElementById("content");
+const homeBtn = document.getElementById("home");
+const menuBtn = document.getElementById("menu");
+const aboutBtn = document.getElementById("about");
