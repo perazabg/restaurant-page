@@ -11,6 +11,12 @@ const createHomePage = () => {
   headLine.classList.add("headLine");
   pageContent.appendChild(headLine);
 
+  //appends paragraph to pageContent
+  const slogan = document.createElement("p");
+  slogan.textContent = "Feast Like a Roman God With Our Hand-Crafted Pizzas!";
+  slogan.classList.add("slogan");
+  pageContent.appendChild(slogan);
+
   //appends pageContent to HTML content div
   content.appendChild(pageContent);
 };
