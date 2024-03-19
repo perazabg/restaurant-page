@@ -11,12 +11,6 @@ const createHomePage = () => {
   headLine.classList.add("headLine");
   pageContent.appendChild(headLine);
 
-  //add paragraph
-  const paragraph = document.createElement("p");
-  paragraph.textContent =
-    "Come join us for a delicious pizza experience! Our pizza are made with the freshest ingredients and are baked in our authentic brick oven.";
-  pageContent.appendChild(paragraph);
-
   //appends pageContent to HTML content div
   content.appendChild(pageContent);
 };
