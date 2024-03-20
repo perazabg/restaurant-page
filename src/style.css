@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("./imgs/pizzaBackground.jpg");
+  background-image: url("./imgs/pizzaOven.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -69,4 +69,8 @@ header {
 
 .slogan {
   font-size: 18px;
+}
+
+.dishDesc {
+  white-space: pre-line;
 }

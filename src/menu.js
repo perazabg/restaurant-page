@@ -24,8 +24,8 @@ const createMenuPage = () => {
 
   //add image to dish
   const img1 = document.createElement("img");
-  img1.src = "./imgs/dish1.jpg";
-  img1.alt = "dish1";
+  img1.src = "./src/imgs/margPizza.jpg";
+  img1.alt = "Margherita Pizza";
 
   const img2 = document.createElement("img");
   img2.src = "./imgs/dish2.jpg";
@@ -46,13 +46,17 @@ const createMenuPage = () => {
 
   //set dish description
   const dishDesc1 = document.createElement("p");
-  dishDesc1.textContent = "Pizza Margherita";
+  dishDesc1.textContent =
+    "Pizza Margherita\n$10.99\nClassic Margherita Pizza topped with fresh basil leaves, olive oil, mozzarela, and oregano.";
   const dishDesc2 = document.createElement("p");
-  dishDesc2.textContent = "Pizza Funghi";
+  dishDesc2.textContent =
+    "Pizza Peperoni\n$12.99\nClassic Pepperoni Pizza topped with large pepperoni slices, fresh basil leaves, olive oil, mozzarela, and oregano.";
   const dishDesc3 = document.createElement("p");
-  dishDesc3.textContent = "Pizza Vegetariana";
+  dishDesc3.textContent =
+    "Pizza Vegetariana\n$12.99\nOur vegetarian option, topped with locally picked vegetables, olive oil, mozzarela, and oregano.";
   const dishDesc4 = document.createElement("p");
-  dishDesc4.textContent = "Pizza Quattro Formaggi";
+  dishDesc4.textContent =
+    "Pizza Quattro Formaggi\n$10.99\nOur famous four cheese pizza topped with our special cheese blend, oregano, and olive oil.";
 
   //set dish description classes
   dishDesc1.classList.add("dishDesc");
