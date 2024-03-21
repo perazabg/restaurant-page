@@ -32,25 +32,25 @@ const createMenuPage = () => {
   img1.src =
     "https://images.unsplash.com/photo-1579751626657-72bc17010498?q=80&w=2768&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   img1.alt = "Margherita Pizza photo by Nik Owens";
-  img1.width = "200";
+  img1.width = "300";
 
   const img2 = document.createElement("img");
   img2.src =
     "https://images.unsplash.com/photo-1579751650599-be542ec35118?q=80&w=2768&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   img2.alt = "Pepperoni Pizza photo by Nik Owens";
-  img2.width = "200";
+  img2.width = "300";
 
   const img3 = document.createElement("img");
   img3.src =
     "https://plus.unsplash.com/premium_photo-1690056321981-dfe9e75e0247?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   img3.alt = "Vegetarian Pizza";
-  img3.width = "200";
+  img3.width = "300";
 
   const img4 = document.createElement("img");
   img4.src =
     "https://images.unsplash.com/photo-1622880833523-7cf1c0bd4296?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
   img4.alt = "Four Cheese Pizza photo by Fabrizio Pullara";
-  img4.width = "200";
+  img4.width = "300";
 
   dish1.appendChild(img1);
   dish2.appendChild(img2);
